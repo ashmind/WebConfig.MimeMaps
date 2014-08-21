@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+
+<configuration>
+  <system.webServer>
+    <staticContent>
+      <remove fileExtension=".svg" />
+      <mimeMap fileExtension=".svg" mimeType="image/svg+xml" />
+
+      <remove fileExtension=".svgz" />
+      <mimeMap fileExtension=".svgz" mimeType="image/svg+xml" />
+    </staticContent>
+  </system.webServer>
+</configuration>

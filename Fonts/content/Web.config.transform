@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+
+<configuration>
+  <system.webServer>
+    <staticContent>
+      <remove fileExtension=".ttf" />
+      <mimeMap fileExtension=".ttf" mimeType="application/octet-stream" />
+    
+      <remove fileExtension=".eot" />
+      <mimeMap fileExtension=".eot" mimeType="application/vnd.ms-fontobject" />
+
+      <remove fileExtension=".otf" />
+      <mimeMap fileExtension=".otf" mimeType="font/otf" />
+
+      <remove fileExtension=".woff" />
+      <mimeMap fileExtension=".woff" mimeType="font/x-woff" />
+    </staticContent>
+  </system.webServer>
+</configuration>

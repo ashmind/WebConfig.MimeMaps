@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>WebConfig.MimeMaps.Fonts</id>
+    <version>0.9</version>
+    <title>Web.config mimeMap for web fonts</title>
+    <authors>Andrey Shchekin</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Adds .eot, .otf, .ttf and .woff an `mimeMap` entries to web.config, so that IIS can serve them correctly.</description>
+    <tags>web.config staticContent mimeMap eot otf ttf woff</tags>
+    <dependencies>
+      <dependency id="WebConfig.MimeMaps.Svg" version="0.9" />
+    </dependencies>
+  </metadata>
+</package>
