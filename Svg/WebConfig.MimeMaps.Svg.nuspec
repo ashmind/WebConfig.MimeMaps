@@ -5,7 +5,7 @@
     <version>0.9</version>
     <title>Web.config mimeMap for SVG</title>
     <authors>Andrey Shchekin</authors>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/ashmind/WebConfig.MimeMaps</projectUrl>
     <description>Adds .svg and .svgz `mimeMap` entries to web.config, so that IIS can serve them correctly.</description>
     <tags>web.config staticContent mimeMap svg svgz</tags>
   </metadata>
