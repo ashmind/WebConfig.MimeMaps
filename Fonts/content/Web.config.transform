@@ -13,7 +13,7 @@
       <mimeMap fileExtension=".otf" mimeType="application/font-sfnt" />
 
       <remove fileExtension=".woff" />
-      <mimeMap fileExtension=".woff" mimeType="applicaton/font-woff" />
+      <mimeMap fileExtension=".woff" mimeType="application/font-woff" />
     </staticContent>
   </system.webServer>
 </configuration>
