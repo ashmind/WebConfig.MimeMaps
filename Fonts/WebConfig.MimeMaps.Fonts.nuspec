@@ -3,7 +3,7 @@
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>WebConfig.MimeMaps.Fonts</id>
     <version>1.0</version>
-    <title>Web.config mimeMap for web fonts</title>
+    <title>Web.config mimeMap for WebFonts</title>
     <authors>Andrey Shchekin</authors>
     <projectUrl>https://github.com/ashmind/WebConfig.MimeMaps</projectUrl>
     <description>Adds .eot, .otf, .ttf, .woff and .woff2 as `mimeMap` entries to web.config, so that IIS can serve them correctly.</description>
